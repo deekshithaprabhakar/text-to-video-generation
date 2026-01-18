@@ -1,0 +1,12 @@
+{
+  "model_id": "damo-vilab/text-to-video-ms-1.7b",
+  "prompt": "A futuristic neon city street in the rain, cinematic, 4k",
+  "negative_prompt": "blurry, low quality, distorted, artifacts",
+  "num_frames": 24,
+  "fps": 8,
+  "num_inference_steps": 30,
+  "guidance_scale": 9.0,
+  "seed": 1234,
+  "seconds_runtime": 375.18,
+  "output_mp4": "outputs/t2v_1768769548_1234.mp4"
+}

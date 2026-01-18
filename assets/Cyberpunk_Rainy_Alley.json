@@ -1,0 +1,12 @@
+{
+  "model_id": "damo-vilab/text-to-video-ms-1.7b",
+  "prompt": "A slow cinematic camera pan through a cyberpunk alley at night,\nneon signs glowing, rain falling, reflections on wet pavement,\nfog drifting through the street, shallow depth of field",
+  "negative_prompt": "blurry, low quality, distorted, artifacts",
+  "num_frames": 16,
+  "fps": 6,
+  "num_inference_steps": 20,
+  "guidance_scale": 7.5,
+  "seed": 1234,
+  "seconds_runtime": 242.55,
+  "output_mp4": "outputs/t2v_1768771407_1234.mp4"
+}

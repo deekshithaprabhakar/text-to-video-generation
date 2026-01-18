@@ -1,0 +1,12 @@
+{
+  "model_id": "damo-vilab/text-to-video-ms-1.7b",
+  "prompt": "shooting stars",
+  "negative_prompt": "blurry, low quality, distorted, artifacts",
+  "num_frames": 16,
+  "fps": 4,
+  "num_inference_steps": 20,
+  "guidance_scale": 8.0,
+  "seed": 1234,
+  "seconds_runtime": 246.53,
+  "output_mp4": "outputs/t2v_1768770164_1234.mp4"
+}

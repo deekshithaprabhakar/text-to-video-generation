@@ -77,10 +77,10 @@ def generate_video(
     with open(meta_path, "w") as f:
         json.dump(meta, f, indent=2)
 
-    return mp4_path, meta_path, f"Done ✅ Runtime: {round(runtime_s, 2)}s"
+    return mp4_path, meta_path, f"Done Runtime: {round(runtime_s, 2)}s"
 
 with gr.Blocks() as demo:
-    gr.Markdown("# Text-to-Video (ModelScope 1.7B) — Gradio Demo")
+    gr.Markdown("# Text-to-Video (ModelScope 1.7B)")
     gr.Markdown("Generate short videos from text prompts using a pretrained video diffusion model. "
                 "If you hit OOM, reduce frames/steps.")
 

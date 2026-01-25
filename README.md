@@ -74,7 +74,7 @@ text-to-video-generation/
      pip install -r requirements.txt
      python app.py
   - Access the app at:
-     https://b1d0898f3e51137e87.gradio.live/
+     https://c749c09e309f9e4cab.gradio.live
 
 ## 🎛 Recommended Generation Settings
 

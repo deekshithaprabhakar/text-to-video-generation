@@ -74,7 +74,7 @@ text-to-video-generation/
      pip install -r requirements.txt
      python app.py
   - Access the app at:
-     http://localhost:7860
+     https://b1d0898f3e51137e87.gradio.live/
 
 ## 🎛 Recommended Generation Settings
 

@@ -1,6 +1,6 @@
 # Text-to-Video Generation using Diffusion Models
 
-This project implements an end-to-end **Text-to-Video generation system** using a pretrained **video diffusion model** from ModelScope, built with **Hugging Face Diffusers** and deployed through an interactive **Gradio web interface**.
+This project implements an end-to-end Text-to-Video generation system using a pretrained video diffusion model from ModelScope, built with Hugging Face Diffusers and an interactive **Gradio web interface**.
 
 Users can enter a natural language prompt and generate short **MP4 videos**, with all generation parameters saved as metadata for reproducibility.
 
@@ -19,7 +19,7 @@ Users can enter a natural language prompt and generate short **MP4 videos**, wit
 - Automatic export of:
   - MP4 video output
   - JSON metadata (prompt + parameters)
-- GPU-optimized inference using FP16 and CPU offloading
+- GPU-optimized inference using FP16
 
 ---
 
@@ -76,14 +76,6 @@ text-to-video-generation/
   - Access the app at:
      http://localhost:7860
 
-### Option 3: Cloud GPU Deployment (AWS / GCP)
-
-- This application is designed to run on GPU-enabled cloud instances, such as:
-  - AWS EC2 (g4dn / g5 instances)
-  - Google Cloud GPU VMs
-  
-- The Gradio server is bound to 0.0.0.0 and port 7860 for external access.
-
 ## 🎛 Recommended Generation Settings
 
 - Parameter	Recommended Value:
@@ -130,7 +122,7 @@ text-to-video-generation/
 - This project demonstrates:
   - Practical use of video diffusion models
   - GPU-optimized machine learning inference
-  - Full-stack ML deployment (model → inference → UI)
+  - Full-stack ML workflow (model → inference → UI)
   - Reproducibility through metadata logging
 
 ## 📜 License & Attribution
